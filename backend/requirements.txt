@@ -1,0 +1,27 @@
+# ============================================================
+# Runtime dependencies - Backend Arloraka Coffee
+# Stack: FastAPI + PostgreSQL + SQLAlchemy (async) + Alembic
+# Install: pip install -r requirements.txt
+# ============================================================
+
+# --- Web framework & server ---
+fastapi
+uvicorn[standard]
+
+# --- Database (PostgreSQL) ---
+sqlalchemy[asyncio]>=2.0
+psycopg[binary]>=3.2
+alembic
+
+# --- Config & validation ---
+pydantic>=2
+pydantic-settings
+python-dotenv
+
+# --- Auth & security ---
+pyjwt
+bcrypt
+email-validator
+
+# --- File upload (bukti laporan) ---
+python-multipart

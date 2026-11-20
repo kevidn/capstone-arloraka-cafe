@@ -1,0 +1,13 @@
+# ============================================================
+# Development / testing dependencies - Backend Arloraka Coffee
+# Install: pip install -r requirements-dev.txt
+# ============================================================
+
+# --- Testing ---
+pytest
+pytest-asyncio
+httpx
+aiosqlite
+
+# --- Linting & formatting ---
+ruff
